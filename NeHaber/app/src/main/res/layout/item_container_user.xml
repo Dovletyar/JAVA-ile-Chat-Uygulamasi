@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_8sdp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profilResmi"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="332dp"
+        android:background="@drawable/background_resim"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_oval="true" />
+
+    <View
+        android:id="@+id/goruntuDestek"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/profilResmi"
+
+        app:layout_constraintTop_toTopOf="@+id/profilResmi"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/txtAdContainerUser"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintBottom_toTopOf="@id/goruntuDestek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilResmi"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtEMailContainerUser"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilResmi"
+        app:layout_constraintTop_toBottomOf="@id/goruntuDestek"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

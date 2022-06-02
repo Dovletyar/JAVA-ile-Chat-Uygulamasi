@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073878820135",
+    "project_id": "ne-haber-e656b",
+    "storage_bucket": "ne-haber-e656b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073878820135:android:f71b95a70d4a116a1c7502",
+        "android_client_info": {
+          "package_name": "com.devletEmre.nehaber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073878820135-2e0i2asba3mtopi6gat2b57e82cjgfk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsKt9TlRhMXWPMbbAEyKktr-u6QGsAdqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073878820135-2e0i2asba3mtopi6gat2b57e82cjgfk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
